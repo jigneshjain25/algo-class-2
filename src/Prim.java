@@ -12,7 +12,7 @@ public class Prim {
 		Node Nodes[] = null;
 		String line,result[];
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("edges_big.txt"));
+			BufferedReader br = new BufferedReader(new FileReader("edges1.txt"));
 			line=br.readLine();
 			result=line.split(" ");
 			
